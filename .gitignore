@@ -1,0 +1,25 @@
+# Ignore .NET build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.log
+*.cache
+.vscode/
+.env
+
+# Ignore Angular build artifacts
+node_modules/
+dist/
+.angular/
+*.log
+*.DS_Store
+
+# Ignore IDE and OS files
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+Thumbs.db
